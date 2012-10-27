@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>WebAuth Notifier</title>
+<link rel="stylesheet" type="text/css" href="main.css" />
+<script src="jquery.js"></script>
+<script src="notify.js"></script>
+</head>
+<body>
+<h2>Webauth Notifier</h2>
+<script type="text/javascript">
+  $(document).ready(function(){
+    interval = 5000;
+    notify(interval);
+  });
+</script>
+<div id="status"></div>
+<button id="button" class="btn" href="#" style="display: none;"></button>
+</body>
+</html>
